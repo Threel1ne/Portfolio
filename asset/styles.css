@@ -88,7 +88,7 @@ header {
   width: 530px;
   height: 333px;
   display: inline-block;
-  background-image: url('/asset/img/Nilprapunt.png');
+  background-image: url('img/Nilprapunt.png');
   background-size: cover;
   transition: 0.3s;
 }
@@ -113,7 +113,7 @@ header {
 .scimgps:hover {
   scale: 130%;
   opacity: 1;
-  background-image: url('/asset/img/Potisarntext.png');
+  background-image: url('img/Potisarntext.png');
 }
 
 .activity {
