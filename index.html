@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="asset/styles.css">
 </head>
 
-<body>
+<body class="slide-up">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand mx-auto logo" id="nav-name">Tharathep's Portfolio</a>
@@ -228,30 +228,6 @@
 </body>
 
 
-var modal = document.getElementById("myModal");
-        
-        // Get all certificate images
-        var certImages = document.getElementsByClassName("cert-img");
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        
-        // Loop through each image and add click event
-        for (var i = 0; i < certImages.length; i++) {
-            certImages[i].onclick = function(){
-              modal.style.display = "block"; // Show the modal
-              modalImg.src = this.src; // Set the source of the modal image to the clicked image
-              captionText.innerHTML = this.alt; // Set the caption text to the alt attribute of the clicked image
-            }
-        }
-        
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
-            modal.style.display = "none"; // Hide the modal
-        }
-}
 
 <script>
     var slideUp = {
