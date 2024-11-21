@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/styles.css">
+    <script src="https://unpkg.com/scrollreveal"></script> <!-- Include ScrollReveal library -->
 </head>
 
 <body>
@@ -43,20 +44,20 @@
     </nav>
 
     <section id="Personal-info" class="text-center py-5">
-        <header class="mb-4"><br>Personal Information</header>
+        <header class="mb-4" data-scroll-reveal="enter fromTop and move 30px">Personal Information</header>
         <img id="myimg" src="asset/img/Myimg.png" class="rounded-circle border border-info" alt="My Image" width="200"
-            height="200">
-        <p class="mt-3"><b class="topic">Name</b> Tharathep Luangsilp</p>
-        <p class="mt-3"><b class="topic">Nickname</b> Non</p>
-        <p><b class="topic">Birthday</b> <span id="BirthDay"> 11<span id="Month">/10/</span>2009</span> </p>
+            height="200" data-scroll-reveal="enter fromLeft and move 100px">
+        <p class="mt-3" data-scroll-reveal="enter fromLeft and move 30px"><b class="topic">Name</b> Tharathep Luangsilp</p>
+        <p class="mt-3" data-scroll-reveal="enter fromLeft and move 30px"><b class="topic">Nickname</b> Non</p>
+        <p data-scroll-reveal="enter fromLeft and move 30px"><b class="topic">Birthday</b> <span id="BirthDay"> 11<span id="Month">/10/</span>2009</span> </p>
     </section>
 
     <section id="skills" class="text-center py-4">
-        <header class="mb-4">My Skills</header>
+        <header class="mb-4" data-scroll-reveal="enter fromTop and move 30px">My Skills</header>
         <div class="container">
             <div class="row">
                 <div class="col-md-3 mb-4">
-                    <div class="card text-center">
+                    <div class="card text-center" data-scroll-reveal="enter fromLeft and move 50px">
                         <div class="card-body">
                             <img src="asset/img/language.png" alt="English Skill" class="mb-2 skill-logo" width="50">
                             <h5 class="card-title">English Skill</h5>
@@ -65,16 +66,16 @@
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
-                    <div class="card text-center">
+                    <div class="card text-center" data-scroll-reveal="enter fromLeft and move 50px">
                         <div class="card-body">
                             <img src="asset/img/Prog.png" alt="Programming Skill" class="mb-2 skill-logo" width="50">
-                            <h5 class="card-title">Programing Skill</h5>
+                            <h5 class="card-title">Programming Skill</h5>
                             <p class="card-text">I can make Website(Full-Stack) and also Python application</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
-                    <div class="card text-center">
+                    <div class="card text-center" data-scroll-reveal="enter fromLeft and move 50px">
                         <div class="card-body">
                             <img src="asset/img/Design.png" alt="Design Skill" class="mb-2 skill-logo" width="50">
                             <h5 class="card-title">Design Skill</h5>
@@ -83,7 +84,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
-                    <div class="card text-center">
+                    <div class="card text-center" data-scroll-reveal="enter fromLeft and move 50px">
                         <div class="card-body">
                             <img src="asset/img/Sing.png" alt="Singing Skill" class="mb-2 skill-logo" width="50">
                             <h5 class="card-title">Singing Skill</h5>
@@ -96,20 +97,19 @@
     </section>
 
     <section id="edu" class="text-center py-4">
-        <header class="mb-5">My Education</header>
+        <header class="mb-5" data-scroll-reveal="enter fromTop and move 30px">My Education</header>
         <p>(Click or hover to see infomations.)</p>
         <div class="imgcontainer">
-            <div class="scimgnp"></div>
-            <div class="scimgps"></div>
+            <div class="scimgnp" data-scroll-reveal="enter fromLeft and move 50px"></div>
+            <div class="scimgps" data-scroll-reveal="enter fromRight and move 50px"></div>
         </div>
     </section>
 
-
     <section id="activities" class="text-center py-4">
-        <header class="mb-4">My Activities</header>
+        <header class="mb-4" data-scroll-reveal="enter fromTop and move 30px">My Activities</header>
         <div class="container">
             <div class="row">
-                <div class="col-md-15 mb-4">
+                <div class="col-md-15 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card text-center">
                         <div class="card-body">
                             <img src="asset/img/act1.png" alt="Activity 1" class="mb-2 activity">
@@ -119,31 +119,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-15 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card text-center">
                         <div class="card-body">
                             <img src="asset/img/act2.png" alt="Activity 2" class="mb-2 activity">
-                            <h5 class="card-title">Participated in the presentation</h5>
-                            <p class="card-text">Presented the Online learning plan in <br><u><b>Edu Soft Power Festival
-                                        2024 event.</b></u></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="asset/img/act3.png" alt="Activity 3" class="mb-2 activity">
-                            <h5 class="card-title">Participated in the presentation</h5>
-                            <p class="card-text">Presented the Robotics curriculum to visitors for education</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card text-center">
-                        <div class="card-body">
-                            <img src="asset/img/act4.png" alt="Activity 4" class="mb-2 activity">
-                            <h5 class="card-title">Participated in the presentation</h5>
-                            <p class="card-text">Presenting the Robotics curriculum at PS Open House 2024</b></u></p>
+                            <h5 class="card-title">The Students Academic Expo 2023</h5>
+                            <p class="card-text">Got a Silver medal from my innovative project in the <u><b>Students Academic Expo 2023</b></u>.</p>
                         </div>
                     </div>
                 </div>
@@ -152,75 +133,70 @@
     </section>
 
     <section id="cer" class="text-center py-4">
-        <header class="mb-4">My Certificate</header>
+        <header class="mb-4" data-scroll-reveal="enter fromTop and move 30px">My Certificate</header>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-4">
+                <!-- Certificates -->
+                <div class="col-md-4 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card cercard">
                         <div class="card-body">
                             <img src="asset/img/cer/cer1.png" alt="Sillapa 71" class="cert-img">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card cercard">
                         <div class="card-body">
-                            <img src="asset/img/cer/cer2.png" alt="Sillapa 70"class="cert-img">
+                            <img src="asset/img/cer/cer2.png" alt="Certificate 2" class="cert-img">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card cercard">
                         <div class="card-body">
-                            <img src="asset/img/cer/cer3.png" alt="World Robot Championship 2022" class="cert-img">
+                            <img src="asset/img/cer/cer3.png" alt="Certificate 3" class="cert-img">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card cercard">
                         <div class="card-body">
-                            <img src="asset/img/cer/cer4.png" alt="Maker Robotics 2024" class="cert-img">
+                            <img src="asset/img/cer/cer4.png" alt="Certificate 4" class="cert-img">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card cercard">
                         <div class="card-body">
-                            <img src="asset/img/cer/cer5.png" alt="World Robot Chapionship 2023" class="cert-img">
+                            <img src="asset/img/cer/cer5.png" alt="Certificate 5" class="cert-img">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card cercard">
                         <div class="card-body">
-                            <img src="asset/img/cer/cer6.png" alt="BorntoDEV <u>ChatGPT</u>" class="cert-img">
+                            <img src="asset/img/cer/cer6.png" alt="Certificate 6" class="cert-img">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card cercard">
                         <div class="card-body">
-                            <img src="asset/img/cer/cer7.png" alt="freeCodeCamp <u>Responsive Web Design</u>" class="cert-img">
+                            <img src="asset/img/cer/cer7.png" alt="Certificate 7" class="cert-img">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-scroll-reveal="enter fromLeft and move 50px">
                     <div class="card cercard">
                         <div class="card-body">
-                            <img src="asset/img/cer/cer8.png" alt="Thai Etiquette Contest 2024" class="cert-img">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card cercard">
-                        <div class="card-body">
-                            <img src="asset/img/cer/cer9.png" alt="Thai Etiquette Contest 2023" class="cert-img">
+                            <img src="asset/img/cer/cer8.png" alt="Certificate 8" class="cert-img">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="img01">
@@ -229,31 +205,31 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-        
-        // Get all certificate images
-        var certImages = document.getElementsByClassName("cert-img");
-        var modalImg = document.getElementById("img01");
-        var captionText = document.getElementById("caption");
-        
-        // Loop through each image and add click event
-        for (var i = 0; i < certImages.length; i++) {
-            certImages[i].onclick = function(){
-              modal.style.display = "block"; // Show the modal
-              modalImg.src = this.src; // Set the source of the modal image to the clicked image
-              captionText.innerHTML = this.alt; // Set the caption text to the alt attribute of the clicked image
-            }
-        }
-        
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-        
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() { 
-            modal.style.display = "none"; // Hide the modal
-        }
-        </script>
+        // ScrollReveal initialization
+        ScrollReveal().reveal('.card-body', {
+            delay: 500,
+            duration: 1000
+        });
+
+        // Modal functionality
+        const modal = document.getElementById("myModal");
+        const modalImg = document.getElementById("img01");
+        const captionText = document.getElementById("caption");
+        const images = document.querySelectorAll('.cert-img');
+
+        images.forEach(image => {
+            image.addEventListener('click', (e) => {
+                modal.style.display = "block";
+                modalImg.src = e.target.src;
+                captionText.innerHTML = e.target.alt;
+            });
+        });
+
+        const closeModal = document.querySelector('.close');
+        closeModal.addEventListener('click', () => {
+            modal.style.display = "none";
+        });
+    </script>
 </body>
 
 </html>
