@@ -254,6 +254,14 @@ var modal = document.getElementById("myModal");
 }
 
 <script>
+    var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null
+};
+
+ScrollReveal().reveal('.slide-up', slideUp);
+
   export default function Index() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
