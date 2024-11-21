@@ -1,10 +1,5 @@
-import { useState } from "react";
-import LazyLoad from "react-lazyload";
-import { motion, useScroll, useSpring } from "framer-motion";
-
-function MyButton() {
-  return (
-
+<!DOCTYPE HTML>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -232,7 +227,6 @@ function MyButton() {
     </div>
 </body>
 
-  );
 
 var modal = document.getElementById("myModal");
         
@@ -259,8 +253,8 @@ var modal = document.getElementById("myModal");
         }
 }
 
-    
-export default function Index() {
+<script>
+  export default function Index() {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -292,4 +286,7 @@ export default function Index() {
       </LazyLoad>
     </>
   );
-}
+}</script> 
+
+
+</html>
