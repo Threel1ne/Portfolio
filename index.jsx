@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+function MyButton() {
+  return (
 
 <head>
     <meta charset="UTF-8">
@@ -226,11 +226,11 @@
         <img class="modal-content" id="img01">
         <div id="caption"></div>
     </div>
+</body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
+  );
+
+var modal = document.getElementById("myModal");
         
         // Get all certificate images
         var certImages = document.getElementsByClassName("cert-img");
@@ -253,7 +253,7 @@
         span.onclick = function() { 
             modal.style.display = "none"; // Hide the modal
         }
-        </script>
-</body>
+}
 
-</html>
+    
+
